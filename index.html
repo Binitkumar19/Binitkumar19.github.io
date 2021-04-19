@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+       @media only screen and (max-width: 600px) {
+           
+            .home{
+                font-size:10px;
+                width:100%;
+               
+                }
+            }
+
+			@media only screen and (max-width: 650px) {
+  			.button1{
+  				
+  				height: auto;
+  				font-size: 10px;
+  				color: red;
+  	     		}
+			}
+
+			.button1{
+				font-size: 40px;
+				position: absolute;
+				border-radius: 8px;
+				width: 23%;
+				height: 10%;
+				padding:0;
+				font-weight: 500;
+				background-color: white;
+				margin-top: -17%;
+				margin-left: -10%;
+				border:white;
+			}
+       .subs{
+           background-color:#40C580;
+           height:150px;
+          
+       }
+       .email{
+           height:80px;
+           margin-top:2.5%;
+           width:35%;
+           background-color:#40C580;
+           border:1px solid white;
+           border-radius:5px;
+           font-size:20px;
+       }
+       .butsubs{
+           height:80px;
+           background-color: white;
+           border:1px solid #40C580;
+           border-radius:5px;
+           font-size:100%;
+       }
+       .abt{
+           font-size:1.5em;
+           color:#0C1206;
+           
+       }
+       .abt:hover{
+           text-decoration:none;
+           font-size:1.8em;
+           transition:.3s;
+       }
+       .tops{
+              position:sticky;
+           top:0px;
+           z-index:1;
+       
+       }
+       /* Login */
+      
+        /*Trigger Button*/
+           /*.login-trigger {
+            font-weight: bold;
+            color: #fff;
+            background: linear-gradient(to bottom right, #B05574, #F87E7B);
+            padding: 15px 30px;
+            border-radius: 30px;
+            position: relative;
+            top: 50%;*/
+        }
+
+        /*Modal*/
+        h4 {
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .close {
+            color: #fff;
+            transform: scale(1.2);
+        }
+
+        .modal-content {
+            font-weight: bold;
+            background: linear-gradient(to bottom right,#F87E7B,#B05574);
+        }
+
+        .form-control {
+            margin: 1em 0;
+        }
+
+            .form-control:hover, .form-control:focus {
+                box-shadow: none;
+                border-color: #fff;
+            }
+
+        .username, .password {
+            border: none;
+            border-radius: 0;
+            box-shadow: none;
+            border-bottom: 2px solid #eee;
+            padding-left: 0;
+            font-weight: normal;
+            background: transparent;
+        }
+
+        .form-control::-webkit-input-placeholder {
+            color: #eee;
+        }
+
+        .form-control:focus::-webkit-input-placeholder {
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .login {
+            padding: 6px 20px;
+            border-radius: 20px;
+            background: none;
+            border: 2px solid #FAB87F;
+            color: #FAB87F;
+            font-weight: bold;
+            transition: all .5s;
+            margin-top: 1em;
+        }
+
+            .login:hover {
+                background: #FAB87F;
+                color: #fff;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid tops m-0 p-0">
+       <div class="card">
+           <div class="w-100 bg-dark">
+               <img src="images/logo.jpg" />
+               <div class="card-text float-right homes mr-5 p-1">
+                    <a href="#" class="card-link home ">Home</a>
+                    <a href="#" class="card-link home">About us</a>
+                    <a href="#" class="card-link home">Contact us</a>
+                   <a class="card-link home" href="#" data-target="#login" data-toggle="modal">Login</a>
+               </div>
+           </div>
+       </div>
+    </div>
+    <div id="login" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button data-dismiss="modal" class="close">&times;</button>
+                    <h4>Login</h4>
+                    <form>
+                        <input type="text" name="username" class="username form-control" placeholder="Username" />
+                        <input type="password" name="password" class="password form-control" placeholder="password" />
+                        <input class="btn login" type="submit" value="Login" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid m-0 p-0">
+        <img src="images/maxre.jpg" class="w-100 h-50 img1" style="position:relative;" />
+
+        <div class="btn-outline-dark text-center">
+        	<button style="margin-top: -200px;position: absolute;">
+        		<a href="#" style="">LEARN MORE</a>
+        	</button>
+        </div>
+
+
+
+
+    
+    <div class="container-fluid ml-0 p-0 text-center mt-4" style="font-size:35px; font-weight:500;">OUR PRODUCT</div>
+    <div class="container-fluid">
+        <div class="row text-center mt-5">
+            <div class="col-sm-4">
+                <div class="starlogo">
+                    <img src="images/starlogos.jpg" />
+                </div>
+                <div class="seo">SEO</div>
+                <div class="logopara">
+                    It is a long established<br> fact that a reader will be<br>
+                    distracted by the readable
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="starlogo">
+                    <img src="images/starlogos.jpg" />
+                </div>
+                <div class="seo">BRANDING</div>
+                <div class="logopara">
+                    It is a long established<br> fact that a reader will be<br>
+                    distracted by the readable
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="starlogo">
+                    <img src="images/starlogos.jpg" />
+                </div>
+                <div class="seo">LOGO</div>
+                <div class="logopara">
+                    It is a long established<br> fact that a reader will be<br>
+                    distracted by the readable
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid m-0 p-0 w-100 mt-5">
+        <img src="images/aboutus.png" style="width:100%;"/>
+    </div>
+    <div class="container text-center">
+        <img class="w-100" src="images/jondeo.png" />
+    </div>
+    <div class="container-fluid m-0 p-0 subs w-100">
+        <form class="text-center">
+            <input class="email" placeholder="Email" required="" type="email" />
+            <input type="button" class="butsubs ml-3 w-25 subs" name="subscribe" value="Subscribe" />
+        </form>
+    </div>
+    <!-- about us -->
+    <div class="container-sm w-100">
+        <div class="row">
+            <div class="col-sm-4">
+                <h1 style="font-weight:500;">About company</h1>
+                <p style="font-size:1.5em;">It is a long established fact that a reader will be distracted by the readable 
+                content of a page when looking at its layout.</p>
+            </div>
+            <div class="col-sm-4">
+                <h1 style="font-weight:500;">Quick Links</h1>
+                <div class="lis">
+                    <a href="#" class="ml-3 p-0 abt">Home</a>
+                    <br />
+                    <a href="#" class="ml-3 abt">Product</a>
+                    <br />
+                    <a href="#" class="ml-3 abt">Pricing</a>
+                    <br />
+                    <a href="#" class="ml-3 abt">Contact</a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <h1 style="font-weight:500;">Contact us</h1>
+                <a href="">info@company.com</a>
+                <p>+91 </p>
+                <a href="#"><i class="fa fa-facebook" style="font-size:36px"></i></a>
+                <a href="#"><i style="font-size:24px" class="fa ml-2">&#xf173;</i></a>
+                <a href="#"><i class="fa fa-google-plus ml-2" style="font-size:24px"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="card-footer text-center">
+        <span>&copy; All site reserved 2021 <br /><a href="#">Sofia_&_Shanvy_developed</a></span>
+    </div>
+</body>
+</html>

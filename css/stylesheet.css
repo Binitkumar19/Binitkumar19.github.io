@@ -1,0 +1,200 @@
+﻿body{
+    margin:0;
+    padding:0;
+
+}
+.home{
+    font-size:1.2em;
+    
+}
+.logimg{
+   border-radius: 10px 20px 13px 19px; 
+}
+.img1{
+    position:relative;
+}
+.button1{
+     border-radius:8px;
+     width:25.6%; 
+     height:13.7%; 
+     margin-left:-11.6%;        
+     margin-top:-17.8%; 
+     position:absolute;
+     font-size:2em;
+}
+.seo{
+    font-size:25px;
+    font-weight:500;
+}
+.subs{
+    background-color:#52BA36;
+    border:1px solid #4cff00;
+}
+ @media only screen and (max-width: 600px) {
+           
+            .home{
+                font-size:10px;
+                width:100%;
+               
+                }
+            }
+
+			
+			.button1{
+				font-size: 40px;
+				position: absolute;
+				border-radius: 8px;
+				width: 23%;
+				height: 10%;
+				padding:0;
+				font-weight: 500;
+				background-color: white;
+				margin-top: -17%;
+				margin-left: -10%;
+				border:white;
+			}
+       .subs{
+           background-color:#40C580;
+           height:150px;
+          
+       }
+       .email{
+           height:80px;
+           margin-top:2.5%;
+           width:35%;
+           background-color:#40C580;
+           border:1px solid white;
+           border-radius:5px;
+           font-size:20px;
+       }
+       .butsubs{
+           height:80px;
+           background-color: white;
+           border:1px solid #40C580;
+           border-radius:5px;
+           font-size:100%;
+       }
+       .abt{
+           font-size:1.5em;
+           color:#0C1206;
+           
+       }
+       .abt:hover{
+           text-decoration:none;
+           font-size:1.8em;
+           transition:.3s;
+       }
+       .tops{
+              position:sticky;
+           top:0px;
+           z-index:1;
+       
+       }
+       /* Login */
+      
+        /*Trigger Button*/
+           /*.login-trigger {
+            font-weight: bold;
+            color: #fff;
+            background: linear-gradient(to bottom right, #B05574, #F87E7B);
+            padding: 15px 30px;
+            border-radius: 30px;
+            position: relative;
+            top: 50%;*/
+        }
+
+        /*Modal*/
+        h4 {
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .close {
+            color: #fff;
+            transform: scale(1.2);
+        }
+
+        .modal-content {
+            font-weight: bold;
+            background: linear-gradient(to bottom right,#F87E7B,#B05574);
+        }
+
+        .form-control {
+            margin: 1em 0;
+        }
+
+            .form-control:hover, .form-control:focus {
+                box-shadow: none;
+                border-color: #fff;
+            }
+
+        .username, .password {
+            border: none;
+            border-radius: 0;
+            box-shadow: none;
+            border-bottom: 2px solid #eee;
+            padding-left: 0;
+            font-weight: normal;
+            background: transparent;
+        }
+
+        .form-control::-webkit-input-placeholder {
+            color: #eee;
+        }
+
+        .form-control:focus::-webkit-input-placeholder {
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .login {
+            padding: 6px 20px;
+            border-radius: 20px;
+            background: none;
+            border: 2px solid #FAB87F;
+            color: #FAB87F;
+            font-weight: bold;
+            transition: all .5s;
+            margin-top: 1em;
+        }
+
+            .login:hover {
+                background: #FAB87F;
+                color: #fff;
+            }
+
+.learn{
+    position:absolute;
+    margin-top:-16%;
+    margin-left:-5%;
+    width:14%;
+    border:none;
+    background-color:white;
+    
+}
+.more{
+    font-size:2em;
+    text-decoration:none;
+    padding:0;
+    color:#0C1206;
+    font-weight:500;
+}
+.more:hover{
+    text-decoration:none;
+    color:#0C1206;
+}
+ @media only screen and (max-width: 600px) {
+           
+            .learn{
+                position:absolute;
+                width:18%;
+                margin-top:-18%;
+                margin-left:-5%;
+                height:4%;
+                
+            }
+            .more{
+                font-size:1%;
+               
+            }
+            }
