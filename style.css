@@ -1,4 +1,4 @@
-﻿body{
+body{
     margin:0;
     padding:0;
 
@@ -35,7 +35,7 @@
             .home{
                 font-size:10px;
                 width:100%;
-               
+                padding: 0px;
                 }
             }
 
@@ -69,11 +69,32 @@
        }
        .butsubs{
            height:80px;
+           margin-left: 30px;
+           width: 15%;
            background-color: white;
            border:1px solid #40C580;
            border-radius:5px;
            font-size:100%;
        }
+       @media only screen and (max-width: 600px)
+        {
+        .subs{
+              width:100%;
+              height: 60px;
+              }  
+              .email{
+                width: 30%;
+                font-size: 15px;
+                height: 40px;
+              } 
+              .butsubs{
+                 width: 30%;
+                font-size: 15px;
+                height: 40px;
+                margin-left: 0px;
+              }
+        }
+       
        .abt{
            font-size:1.5em;
            color:#0C1206;
@@ -90,20 +111,7 @@
            z-index:1;
        
        }
-       /* Login */
       
-        /*Trigger Button*/
-           /*.login-trigger {
-            font-weight: bold;
-            color: #fff;
-            background: linear-gradient(to bottom right, #B05574, #F87E7B);
-            padding: 15px 30px;
-            border-radius: 30px;
-            position: relative;
-            top: 50%;*/
-        }
-
-        /*Modal*/
         h4 {
             font-weight: bold;
             color: #fff;
@@ -185,16 +193,20 @@
 }
  @media only screen and (max-width: 600px) {
            
-            .learn{
+            .learnm{
                 position:absolute;
-                width:18%;
-                margin-top:-18%;
-                margin-left:-5%;
-                height:4%;
-                
+                width:20%;
+                margin-top:-25%;
+                margin-left:0%;
+                height:auto;
+                font-size:5px;
+                text-align:center;
             }
-            .more{
-                font-size:1%;
-               
+            .lm{
+              margin-top: 10px;
+            }
+            .btn-outline-dark{
+              margin-left: -5%;
+              margin-top: -1%;
             }
             }
